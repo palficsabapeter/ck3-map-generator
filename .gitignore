@@ -1,4 +1,15 @@
-/target/
+target/
 */target/
-/.bsp/
-/.idea/
+.bsp/
+.idea/
+
+*.class
+*.log
+/output/
+ # sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+# Default ignored files
+/.idea/workspace.xml
